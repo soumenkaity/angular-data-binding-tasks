@@ -1,0 +1,4 @@
+<h2>Component 2</h2>
+<p>Data from Component 3 : <br><b>{{message}}</b></p>
+<p>Data sent to Component 1: <br><b>{{message}}</b></p>
+<app-component3 (childEvent)="fireEvent(message=$event)"></app-component3>
